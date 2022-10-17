@@ -5,6 +5,23 @@
     <meta charset="utf-8" />
     <link rel="favicon" href="https://www.favicon.cc/logo3d/809485.png" />
     <link rel="stylesheet" href="style.css">
+    <style>
+      .flex-container {
+        margin: auto;
+        display: flex;
+        display: grid;
+        grid-template-columns: 135px 120px 125px 125px;
+        grid-template-rows: 60px 60px;
+        text-align: center;
+        background-color: rgb(230, 232, 223);
+        flex-wrap: wrap;
+      }
+      
+      .flex-container > li {
+        margin: 10px;
+        flex-wrap: wrap;
+      }
+      </style>
   </head>
 
   <body>
@@ -28,8 +45,8 @@
       <hr>
       <section>
         <h4 id="tit">Attendence List:</h4>
-        <ul>
-          <li>Mikey, <i>Tyrannosaurus Rex</i></li>
+        <ul class="flex-container">
+          <li>Mikey, <i>TyrannosaurusRex</i></li>
           <li>Sally, <i>Stegosaurus</i></li>
           <li>Ryan, <i>Triceratops</i></li>
           <li>Kim, <i>Velociraptor</i></li>
@@ -64,8 +81,8 @@
       <section>
         <hr>
         <h4 id="tit">Meeting Content:</h4>
-        <p>A diagram drawed by Ryan:</p>
-        <img id="" src="https://www.researchgate.net/publication/265368515/figure/fig3/AS:667597020340225@1536178941033/Reconstructed-vertebrate-fauna-and-simplifi-ed-food-web-for-the-Lisowice-community-Late.png" alt="note"/>
+        <div style="align-self: center">A diagram drawed by Ryan:</div>
+        <img id="titimg" src="https://www.researchgate.net/publication/265368515/figure/fig3/AS:667597020340225@1536178941033/Reconstructed-vertebrate-fauna-and-simplifi-ed-food-web-for-the-Lisowice-community-Late.png" alt="note"/>
         <br>
           <ul>
             <li><span class="name">Mikey</span>: We can sign an agreement to all be herbivores for a month.</li>
