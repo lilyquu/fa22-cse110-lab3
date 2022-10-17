@@ -1,3 +1,28 @@
 body {
-  background-color: linen;
+  background-color: linen; /* an almost white color */
+}
+
+.menu {
+  font-size: 0.6cm;
+}
+
+#tit {
+  font-size: 4vw;
+  color:rgb(141, 115, 82);
+  text-decoration-line: underline hsl(77, 50%, 80%);
+  text-align: left;
+}
+
+#titimg {
+  width: 150px;
+}
+
+#noteimg {
+  width: 10em;
+}
+
+.record {
+  border-width: 2mm;
+  border-style: dotted;
+  border-color: #567895;
 }
